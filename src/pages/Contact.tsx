@@ -18,31 +18,29 @@ const Contact: React.FC = () => {
             <p>
               Fonderie Drean<br />
               المنطقة الصناعية<br />
-              (يرجى إضافة العنوان الكامل)
+              البراكنة حصة رقم 01 بلدية الذرعان -ولاية الطارف-
             </p>
           </div>
           
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">الهاتف:</h3>
             <p>
-              الهاتف: (يرجى إضافة رقم الهاتف)<br />
-              الفاكس: (يرجى إضافة رقم الفاكس)
+             الهاتف:   +213770462306<br />
+              الهاتف02: +213550152422
             </p>
           </div>
           
           <div className="mb-4">
             <h3 className="text-xl font-bold mb-2">البريد الإلكتروني:</h3>
             <p>
-              المبيعات: sales@fonderie-drean.com<br />
-              خدمة العملاء: support@fonderie-drean.com<br />
-              الاستفسارات العامة: info@fonderie-drean.com
+              fonderieinfo@gmail.com
             </p>
           </div>
           
           <div>
             <h3 className="text-xl font-bold mb-2">ساعات العمل:</h3>
             <p>
-              الأحد - الخميس: 8:00 صباحاً - 5:00 مساءً<br />
+              الأحد - الخميس: 8:00 صباحاً - 4:00 مساءً<br />
               الجمعة - السبت: مغلق
             </p>
           </div>
@@ -86,7 +84,7 @@ const Contact: React.FC = () => {
       <div className="bg-gray-100 p-6 rounded-lg mb-8">
         <h2 className="text-2xl font-bold mb-4">موقعنا</h2>
         <div className="map-placeholder bg-gray-300 h-80 rounded-md flex items-center justify-center">
-          <p className="text-gray-600">هنا سيتم إضافة خريطة تفاعلية لموقع الشركة</p>
+          <p className="text-gray-600"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102386.1967244732!2d7.717051400000001!3d36.68487105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f00b5d4658611f%3A0x27b6bd569eca0667!2sFonderie%20Dr%C3%A9an!5e0!3m2!1sfr!2sdz!4v1750064108297!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
         </div>
       </div>
       
