@@ -1,27 +1,13 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current URL and converts the path and query
-      // string into just the hash portion, and then redirects the browser
-      // to the new URL with only the hash and no path or query string.
-      // This allows GitHub Pages to serve the index.html page for all paths
-      // and then the client-side router can take over.
-      var path = window.location.pathname;
-      var query = window.location.search;
-      var fragment = window.location.hash;
-      if (path !== '/' && !path.includes('.' )) {
-        window.location.replace(window.location.origin + '/#' + path + query + fragment);
-      }
-    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fonderie_drean</title>
   </head>
   <body>
-    <!-- If you see this, your browser does not support JavaScript or it is disabled. -->
-    <!-- Please enable JavaScript to view this site. -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
